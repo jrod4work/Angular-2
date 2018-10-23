@@ -1,6 +1,3 @@
-Angular-2
-package.json
-
 {
     "name": "typescript-sandbox",
     "version": "1.0.0",
@@ -10,7 +7,3 @@ package.json
         "start": "tsc && node index.js"
     }
 }
-
-tsconfig.json file:
-
-tsc --init
