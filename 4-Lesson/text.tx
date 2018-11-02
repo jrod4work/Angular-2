@@ -1,0 +1,22 @@
+
+
+-----Skill2.ts (under the models folder)
+AbilidadesModel
+----skills2.service.ts
+
+Class: Skills2Service
+Abilidades equals to AbilidadesModel
+Need to import AbilidadesModel and Nivel
+-----HTML
+abilidad variable of Abilidades
+-----ts
+Abilidades: AbilidadesModel [];
+
+constructor(private skills2Service: Skills2Service) {
+    this.Abilidades =  skills2Service.Abilidades;
+   }
+-----app.compo.HTML
+  <app-skills2></app-skills2>
+which comes from the ts file
+----nivel.enum.ts
+Nivel

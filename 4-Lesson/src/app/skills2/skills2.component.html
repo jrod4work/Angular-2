@@ -1,0 +1,10 @@
+<div>
+  <h3>
+  Abilidades:
+  </h3>
+  <ul>
+      <li *ngFor="let abilidad of Abilidades">
+          <p>{{abilidad.id + 1}}. {{abilidad.nombre}}: {{abilidad.nivel}}</p>
+      </li>
+  </ul>
+</div>
